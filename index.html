@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width,
+				initial-scale=1.0"
+    />
+    <title></title>
+    <!-- link of bootsrap css file -->
+    <link rel="stylesheet" href="asset/styles/bootstrap.min.css" />
+    <!-- link of main  css file -->
+    <link rel="stylesheet" href="asset/styles/style.css" />
+  </head>
+
+  <body>
+    <!-- for header part -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand border-end" href="#"><img src="asset/image/logo.png" class="h-50" alt="">
+          <span class="toggle bg-danger text-white rounded-1 fs-4 mx-3"
+          ><ion-icon name="chevron-back-outline"></ion-icon
+        ></span>
+        </a>
+
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <p>welcomeBack , <span class="fw-bold">username</span></p>
+            </li>
+           
+           
+          </ul>
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item mx-2 dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                English
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Arabic</a></li>
+                <li><a class="dropdown-item" href="#">English</a></li>
+                
+              </ul>
+            </li>
+            <li class="nav-item mx-2">
+              <a href=""><img src="asset/image/Component 45 – 1.svg" class="icn" alt="" />
+              </a>  
+            </li>
+            <li class="nav-item mx-2">
+              <a href=""><img src="asset/image/Component 47 – 2.svg" class="icn" alt="" />
+              </a> 
+            </li>
+            <li class="nav-item mx-2">
+              <a href="Auth.html"><img src="asset/image/Component 46 – 2.svg" class="icn" alt="" />
+              </a>  
+            </li>
+           
+           
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <!-- -->
+    <div class="main-container">
+      <!-- sidenav start -->
+      <div class="navcontainer">
+        <nav class="nav">
+          <ul class="nav-upper-options">
+            <li class="nav-option option1 border-bottom">
+              <img src="asset/image/Path 53515.svg" alt="Overview" />
+              <p>Overview</p>
+            </li>
+            <hr>
+
+            <li class="option2 nav-option mt-2">
+              <img src="asset/image/Mask Group 41904.svg" alt="Dashboard" />
+              <p>Dashboard</p>
+            </li>
+
+            <li class="nav-option option3">
+              <img src="asset/image/Group 44668.svg" alt="Users" />
+              <p>Users</p>
+            </li>
+
+            <li class="nav-option option4">
+              <img src="asset/image/Mask Group 41905.svg" alt="Agreements" />
+              <p>Agreements</p>
+            </li>
+
+            <li class="nav-option option5">
+              <img src="asset/image/Mask Group 41907.svg" alt="Invoices" />
+              <p>Invoices</p>
+            </li>
+
+            <li class="nav-option option6">
+              <img src="asset/image/Mask Group 41908.svg" alt="Transactions" />
+              <p>Transactions</p>
+            </li>
+
+            <li class="nav-option option6">
+              <img src="asset/image/Mask Group 41909.svg" alt="Overview" />
+              <p>System Users</p>
+            </li>
+            <li class="nav-option option6">
+              <img src="asset/image/Mask Group 41910.svg" alt="Overview" />
+              <p>Reports</p>
+            </li>
+            <li class="nav-option option6 mb-4">
+              <img src="asset/image/Mask Group 41912.svg" alt="Overview" />
+              <p>Support messages</p>
+            </li>
+
+            <li class="nav-option logout border-top ">
+              <ion-icon
+                name="log-out-outline"
+                class="text-white fs-5"
+              ></ion-icon>
+              <p>Logout</p>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- sidenav end -->
+      <!-- start main dashboard  -->
+      <!-- <div class="main">
+        <div
+          class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom"
+        >
+          <div class="content">
+            <h1 class="h5 ps-3">How to use Liquify</h1>
+          </div>
+        </div>
+        <div class="container-fluid pt-4">
+          <div class="row g-3">
+            <div class="col-lg-3 col-md-6">
+              <div class="liquifycontent py-4 px-2 bg-white shadow-sm">
+                <div
+                  class="headingcontent d-flex justify-content-between align-items-center"
+                >
+                  <h3>Create facility agreement</h3>
+                  <img src="asset/image/Invoice-rafiki (2).svg" alt="" />
+                </div>
+                <p>
+                  If you are a seller you can use liquify to get paid for your
+                  invoices and get your cash
+                </p>
+                <button class="extrabutton w-100 py-2">New agreement</button>
+                <span class="specialspan px-2"> 1</span>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="liquifycontent py-4 px-2 bg-white shadow-sm">
+                <div
+                  class="headingcontent d-flex justify-content-between align-items-center"
+                >
+                  <h3>Create facility agreement</h3>
+                  <img src="asset/image/Invoice-rafiki (2).svg" alt="" />
+                </div>
+                <p>
+                  If you are a seller you can use liquify to get paid for your
+                  invoices and get your cash
+                </p>
+                <button class="extrabutton w-100 py-2">New agreement</button>
+                <span class="specialspan px-2"> 2</span>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="liquifycontent py-4 px-2 bg-white shadow-sm">
+                <div
+                  class="headingcontent d-flex justify-content-between align-items-center"
+                >
+                  <h3>Create facility agreement</h3>
+                  <img src="asset/image/Invoice-rafiki (2).svg" alt="" />
+                </div>
+                <p>
+                  If you are a seller you can use liquify to get paid for your
+                  invoices and get your cash
+                </p>
+                <button class="extrabutton w-100 py-2">New agreement</button>
+                <span class="specialspan px-2"> 3</span>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="liquifycontent py-4 px-2 bg-white shadow-sm">
+                <div
+                  class="headingcontent d-flex justify-content-between align-items-center"
+                >
+                  <h3>Create facility agreement</h3>
+                  <img src="asset/image/Invoice-rafiki (2).svg" alt="" />
+                </div>
+                <p>
+                  If you are a seller you can use liquify to get paid for your
+                  invoices and get your cash
+                </p>
+                <button class="extrabutton w-100 py-2">New agreement</button>
+                <span class="specialspan px-2"> 4</span>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div
+                class="liquifycontent g-3 d-flex justify-content-between align-items-center py-4 px-2 bg-white shadow-sm"
+              >
+                <div class="headingcontent">
+                  <h3>The collections requests</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                    diam nonumy eirmod tempor invidunt ut
+                  </p>
+                  <span>view details</span>
+                </div>
+                <img src="asset/image/Invoice-rafiki.svg" alt="" />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div
+                class="liquifycontent d-flex justify-content-between g-3 py-4 px-2 bg-white shadow-sm"
+              >
+                <div class="headingcontent">
+                  <h3>Create facility agreement</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                    diam nonumy eirmod tempor invidunt ut
+                  </p>
+                  <span>view details</span>
+                </div>
+                <img src="asset/image/Invoice-rafiki (3).svg" alt="" />
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div
+                class="liquifycontent d-flex justify-content-between g-3 py-4 px-2 bg-white shadow-sm"
+              >
+                <div class="headingcontent">
+                  <h3>Aging summary</h3>
+                  <p>Summary of credit you get from liquify on your invoices</p>
+                  <span>view details</span>
+                </div>
+                <img src="asset/image/Invoice-rafiki (2).svg" alt="" />
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div
+                class="liquifycontent d-flex justify-content-between g-3 py-4 px-2 bg-white shadow-sm"
+              >
+                <div class="headingcontent">
+                  <h3>Top debtors</h3>
+                  <p>List of debtors of the highest debts amounts</p>
+                  <span>view details</span>
+                </div>
+                <img src="asset/image/Invoice-rafiki (1).svg" alt="" />
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div
+                class="liquifycontent d-flex justify-content-between g-3 py-4 px-2 bg-white shadow-sm"
+              >
+                <div class="headingcontent">
+                  <h3>Reports</h3>
+                  <p>List of debtors of the highest debts amounts</p>
+                  <span>view details</span>
+                </div>
+                <img src="asset/image/Invoice-rafiki (1).svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <div class="container p-4  bg-white">
+        <div class="content bg-light  p-3">
+          <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center ">
+            <div class="content">
+              <h1 class="h5 ">How to use Liquify</h1>
+              
+    
+            </div>
+            
+            
+          </div>
+          <div class="row g-3 py-3 ">
+            <div class="col-lg-3 col-md-6">
+              <div class="liquifycontent py-4 px-2 bg-white shadow-sm">
+                <div class="headingcontent  d-flex justify-content-between align-items-center">
+                  <h3>Create facility agreement</h3>
+                  <img src="asset/image/Invoice-rafiki (2).svg" alt="">
+                </div>
+                <p>If you are a seller you can use liquify to get paid for your invoices and get your cash</p>
+                <button class="extrabutton w-100 py-2">New agreement</button>
+                <span class="specialspan px-2 "> 1</span>
+  
+              </div>
+              
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="liquifycontent py-4 px-2 bg-white shadow-sm">
+                <div class="headingcontent d-flex justify-content-between align-items-center">
+                  <h3>Create facility agreement</h3>
+                  <img src="asset/image/Invoice-rafiki (2).svg" alt="">
+                </div>
+                <p>If you are a seller you can use liquify to get paid for your invoices and get your cash</p>
+                <button class="extrabutton w-100 py-2">New agreement</button>
+                <span class=" specialspan px-2 "> 2</span>
+  
+              </div>
+              
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="liquifycontent py-4 px-2 bg-white shadow-sm">
+                <div class="headingcontent  d-flex justify-content-between align-items-center">
+                  <h3>Create facility agreement</h3>
+                  <img src="asset/image/Invoice-rafiki (2).svg" alt="">
+                </div>
+                <p>If you are a seller you can use liquify to get paid for your invoices and get your cash</p>
+                <button class="extrabutton w-100 py-2">New agreement</button>
+                <span class="specialspan px-2 "> 3</span>
+  
+              </div>
+              
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="liquifycontent py-4 px-2 bg-white shadow-sm">
+                <div class="headingcontent  d-flex justify-content-between align-items-center">
+                  <h3>Create facility agreement</h3>
+                  <img src="asset/image/Invoice-rafiki (2).svg" alt="">
+                </div>
+                <p>If you are a seller you can use liquify to get paid for your invoices and get your cash</p>
+                <button class="extrabutton w-100 py-2">New agreement</button>
+                <span class="specialspan px-2 "> 4</span>
+  
+              </div>
+              
+            </div>
+            
+            
+            <div class="col-md-6 ">
+              <div class="liquifycontent py-4 px-2 bg-white shadow-sm">
+                <h5>
+                  Create facility agreement</h5>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="headingcontent">
+                    
+                      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
+                  </div>
+                  <img src="asset/image/Invoice-rafiki.svg" alt="">
+                 
+                </div>
+                <span>view details</span>
+              
+                
+               
+  
+              </div>
+            </div>
+            <div class="col-md-6 ">
+              <div class="liquifycontent py-4 px-2 bg-white shadow-sm">
+                <h5>
+                  Create facility agreement</h5>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="headingcontent">
+                    
+                      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
+                  </div>
+                  <img src="asset/image/Invoice-rafiki (3).svg" alt="">
+                 
+                </div>
+                <span>view details</span>
+              
+                
+               
+  
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 ">
+              <div class="liquifycontent py-4 px-2 bg-white shadow-sm">
+                <h5>
+                  Top debtors</h5>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="headingcontent">
+                    
+                      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
+                  </div>
+                  <img src="asset/image/Invoice-rafiki (2).svg" alt="">
+                 
+                </div>
+                <span>view details</span>
+              
+                
+               
+  
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 ">
+              <div class="liquifycontent py-4 px-2 bg-white shadow-sm">
+                <h5>
+                  Reports</h5>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="headingcontent">
+                   
+                      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
+                  </div>
+                  <img src="asset/image/Invoice-rafiki (1).svg" alt="">
+                 
+                </div>
+                <span>view details</span>
+              
+                
+               
+  
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 ">
+              <div class="liquifycontent py-4 px-2 bg-white shadow-sm">
+                <h5>
+                  Aging summary</h5>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="headingcontent">
+                    
+                      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
+                  </div>
+                  <img src="asset/image/Invoice-rafiki (1).svg" alt="">
+                 
+                </div>
+                <span>view details</span>
+              
+                
+               
+  
+              </div>
+            </div>
+            
+            
+            
+          </div>
+
+        </div>
+        
+      </div>
+      <!-- end main dashboard  -->
+    </div>
+
+    <!-- links of scripts of icoins icons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <!-- links of script of bootstrap-->
+    <script src="asset/js/bootstrap.bundle.min.js"></script>
+
+     <!-- links of scripts of toggle sidnav-->
+    <script>
+      let toggle = document.querySelector(".toggle");
+      let nav = document.querySelector(".navcontainer");
+
+      toggle.addEventListener("click", () => {
+        nav.classList.toggle("navclose");
+      });
+    </script>
+  </body>
+</html>
